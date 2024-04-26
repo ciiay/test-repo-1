@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  annotations:
+    github.com/project-slug: ciiay/test-repo-1
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/createdAt: 4/26/2024, 2:08:42 PM
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/ciiay
